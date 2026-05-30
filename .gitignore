@@ -1,0 +1,11 @@
+logs/*.log
+output/*.json
+
+.env
+config.json
+
+.vscode/
+.idea/
+
+*.zip
+*.bak
