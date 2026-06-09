@@ -202,7 +202,7 @@ Alle wichtigen Verarbeitungsschritte werden protokolliert.
 Logdatei:
 
 ```text
-logs\etl.log
+C:\Users\Administrator\skt-bigdata-system-performance-etl\logs\etl.log
 ```
 
 Format:
@@ -380,7 +380,7 @@ Die ETL-Pipeline wird automatisch über den Windows Task Scheduler gestartet.
 Beispiel:
 
 ```powershell
-powershell.exe -ExecutionPolicy Bypass -File "C:\Users\Administrator\skt-bigdata-system-performance-etl\scripts\Collect-SystemPerformance.ps1" -LoadToMongo
+powershell.exe -ExecutionPolicy Bypass -File "C:\Users\Administrator\skt-bigdata-system-performance-etl\scripts\Collect-SystemPerformance.ps1" -TopProcesses 10 -LoadToMongo
 ```
 
 Intervall:
@@ -388,6 +388,18 @@ Intervall:
 ```text
 Alle 5 Minuten
 ```
+
+Script:
+C:\Users\Administrator\skt-bigdata-system-performance-etl\scripts\Collect-SystemPerformance.ps1
+
+Arbeitsverzeichnis:
+C:\Users\Administrator\skt-bigdata-system-performance-etl
+
+Ausgabe:
+C:\Users\Administrator\skt-bigdata-system-performance-etl\output
+
+Logdatei:
+C:\Users\Administrator\skt-bigdata-system-performance-etl\logs\etl.log
 
 ---
 
