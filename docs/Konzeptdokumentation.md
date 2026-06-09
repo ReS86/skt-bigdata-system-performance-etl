@@ -3,8 +3,8 @@
 ## System Performance ETL Pipeline mit PowerShell und MongoDB
 
 **Modul:** Skriptingtechnik / Big Data  
-**Projektteam:** [Namen eintragen]  
-**Datum:** [Datum eintragen]  
+**Projektteam:** [René Scherer, Mark Zgraggen, Kevin Sacapaño]  
+**Datum:** [09.06.2026]  
 **Version:** 1.0
 
 ---
@@ -213,7 +213,8 @@ anstelle von einfachem Insert.
 
 MongoDB dient als persistenter Datenspeicher für historische Leistungsdaten.
 
-Durch die regelmässige automatische Datensammlung entsteht über die Zeit eine wachsende Datenbasis, welche analysiert werden kann.
+Durch die automatische Erfassung im 5-Minuten-Intervall entsteht über längere Zeiträume eine wachsende Datenbasis, welche mittels Aggregationen und KPI-Auswertungen analysiert werden kann.
+
 
 Big-Data-Aspekte:
 
@@ -239,7 +240,7 @@ Big-Data-Aspekte:
 | Dokumentation | Team | 2 h |
 | Präsentation vorbereiten | Team | 1 h |
 
-**Gesamtaufwand:** ca. 13 Stunden
+**Gesamtaufwand: ca. 15–20 Stunden
 
 ---
 
