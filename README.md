@@ -98,6 +98,20 @@ Folgende Software muss installiert sein:
 
 MongoDB Community Server installieren.
 
+### Screenshots
+
+![MongoDB Installation 1](docs/screenshots/01_mongodb_installation_01.png)
+
+![MongoDB Installation 2](docs/screenshots/01_mongodb_installation_02.png)
+
+![MongoDB Installation 3](docs/screenshots/01_mongodb_installation_03.png)
+
+![MongoDB Installation 4](docs/screenshots/01_mongodb_installation_04.png)
+
+![MongoDB Installation 5](docs/screenshots/01_mongodb_installation_05.png)
+
+![MongoDB Installation 6](docs/screenshots/01_mongodb_installation_06.png)
+
 ## 2. MongoDB Shell installieren
 
 mongosh installieren.
@@ -107,6 +121,11 @@ Prüfen:
 ```powershell
 mongosh --version
 ```
+
+### Screenshot
+
+![Mongosh Connection](docs/screenshots/02_mongosh_connection.png)
+
 
 ## 3. MongoDB Database Tools installieren
 
@@ -152,6 +171,10 @@ Das Skript benötigt keine Benutzername-/Passwort-Konfiguration, da MongoDB loka
 ```powershell
 .\scripts\Collect-SystemPerformance.ps1 -LoadToMongo
 ```
+
+### Screenshot
+
+![ETL Execution](docs/screenshots/03_etl_execution.png)
 
 ## Top-Prozesse anpassen
 
@@ -250,7 +273,11 @@ Beispiel:
 2026-06-02 15:30:02;INFO;MongoDB Upsert abgeschlossen
 ```
 
+### Screenshot
+
+![Logfile](docs/screenshots/08_logfile.png)
 ---
+
 
 # Fehlerbehandlung
 
@@ -285,6 +312,9 @@ skt_bigdata
 system_performance
 ```
 
+### Screenshot
+
+![MongoDB Compass](docs/screenshots/04_compass_documents.png)
 ---
 
 # Datenmodell
@@ -325,7 +355,11 @@ Zweck:
 - Schnellere Suche nach Zeitstempel
 - Schnellere Suche nach Computer und Zeitstempel
 
+### Screenshot
+
+![MongoDB Indexes](docs/screenshots/07_indexes.png)
 ---
+
 
 # MongoDB Aggregationen
 
@@ -344,7 +378,11 @@ db.system_performance.aggregate([
 ])
 ```
 
+### Screenshot
+
+![Aggregation Results](docs/screenshots/05_aggregation_results_01.png)
 ---
+
 
 ## Letzte 3 Messungen
 
@@ -372,6 +410,9 @@ db.system_performance.aggregate([
   }
 ])
 ```
+### Screenshot
+
+![Aggregation Results](docs/screenshots/05_aggregation_results_02.png)
 
 ---
 
@@ -461,20 +502,11 @@ C:\Users\Administrator\skt-bigdata-system-performance-etl\output
 Logdatei:
 C:\Users\Administrator\skt-bigdata-system-performance-etl\logs\etl.log
 
----
+### Screenshots
 
-# Screenshots
+![Task Scheduler 1](docs/screenshots/06_task_scheduler_01.png)
 
-Die Dokumentation enthält folgende Nachweise:
-
-- MongoDB Installation
-- MongoDB Verbindung
-- ETL Ausführung
-- MongoDB Compass
-- Aggregationen
-- Task Scheduler
-- MongoDB Indexe
-- Logdatei
+![Task Scheduler 2](docs/screenshots/06_task_scheduler_02.png)
 
 ---
 
